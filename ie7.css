@@ -1,0 +1,8 @@
+section, article, header, footer, aside, nav, main, dialog, .col, .width-fit, .width-fill, .cell {
+    display:block;
+    *zoom:1;
+}
+
+.width-fill {
+   width:auto;
+}

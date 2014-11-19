@@ -1,0 +1,23 @@
+@media (min-width: 768px) {
+    .desktop-hidden {
+        display:none !important;
+    }
+}
+
+@media (max-width:767px) {
+    .mobile-hidden {
+        display:none !important;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .tablet-hidden {
+        display:none !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .phone-hidden {
+        display:none !important;
+    }
+}

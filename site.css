@@ -1,0 +1,23 @@
+body, footer {
+    background: #eee;
+}
+
+main {
+    background: #fff;
+}
+
+header {
+    background: #666;
+}
+
+header h1 {
+    color: #fff;
+}
+
+p, ul, h1 {
+    margin: 0;
+}
+
+.cell {
+    border: 1px dashed #333;
+}

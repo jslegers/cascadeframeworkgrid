@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+}
+
+.col, .width-fit, .width-fill, .cell {
+    display:block;
+}
+
+section, article, header, footer, aside, nav, main, dialog, .col, .width-fit {
+    float:left;
+    min-height:1px;
+    width:100%;
+}
+
+.cell {
+    margin:10px;
+    position:relative;
+}
+
+.width-fit {
+    width:auto;
+}
+
+.width-fill {
+    display:table-cell;
+    float:none;
+    min-width:50px;
+    width:10000px;
+}
+
+.site-center {
+    position:relative;
+    float:none !important;
+    margin-left:auto !important;
+    margin-right:auto !important;
+    width:920px;
+    min-width:200px;
+}
+
+section:after,article:after,header:after,footer:after,aside:after,nav:after,main:after,dialog:after,
+.col:after,.width-fit:after,.width-fill:after, .col:after, .cell:after {
+    clear:both;
+}
+
+section:after,article:after,header:after,footer:after,aside:after,nav:after,main:after,dialog:after,
+.col:after,.width-fit:after,.width-fill:after, .cell:after,
+section:before,article:before,header:before,footer:before,aside:before,nav:before,main:before,dialog:before,
+.col:before,.width-fit:before,.width-fill:before, .cell:before {
+    content:""; display:table;
+}

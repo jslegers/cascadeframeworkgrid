@@ -1,0 +1,36 @@
+
+@media (min-width:1200px) {
+    .site-center {
+        width:1160px;
+    }
+    .cell{
+        margin:15px;
+    }
+}
+
+@media (min-width:768px) and (max-width:979px) {
+    .site-center {
+        width:704px;
+    }
+}
+
+@media (max-width:767px) {
+    main, section, article, header, footer, aside, nav, main, dialog, .col, .width-fit, .width-fill {
+        padding:0 !important;
+        display:block !important;
+        float:left !important;
+        width:100% !important;
+    }
+
+    .site-center {
+        margin:0 !important;
+        width:100% !important;
+        border:none !important;
+        -webkit-box-shadow:none !important;
+        -moz-box-shadow:none !important;
+        box-shadow:none !important;
+        -webkit-border-radius: 0 !important;
+        -moz-border-radius: 0 !important;
+        border-radius: 0 !important;
+    }
+}
