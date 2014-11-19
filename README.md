@@ -5,7 +5,7 @@ Cascade Framework Grid is a standalone version of Cascade Framework's Grid syste
 
 For a live demo, go to [http://jslegers.github.io/cascadeframeworkgrid/](http://jslegers.github.io/cascadeframeworkgrid/).
 
-![Cascade Framework](http://jslegers.github.io/cascadeframeworkadvanced/screenshot.png)
+![Cascade Framework](http://jslegers.github.io/cascadeframeworkgrid/screenshot.png)
 
 ## Author
 
